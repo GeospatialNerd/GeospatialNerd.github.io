@@ -46,6 +46,14 @@ body {
   padding: 10px;
 }
 
+/* This is the formatting class for the map on the about page */
+.mapclass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* This section formats the external link I provided to the sand dune information */
 /* Inspiration taken from: https://www.w3schools.com/html/html_links_colors.asp */
 .sanddunelink a:link, .sanddunelink a:visited {
