@@ -58,7 +58,7 @@ body {
 /* This section formats the external link I provided to the sand dune information */
 /* Inspiration taken from: https://www.w3schools.com/html/html_links_colors.asp */
 .sanddunelink a:link, .sanddunelink a:visited {
-  background-color: #333;
+  background-color: rgb(31, 46, 78);
   color: rgb(255, 255, 255);
   padding: 5px 8px;
   text-align: center;
@@ -72,7 +72,7 @@ body {
 
 /* This section formats the external link I provided to the sand dune information */
 .tuliplink a:link, .tuliplink a:visited {
-  background-color: #333;
+  background-color: rgb(31, 46, 78);
   color: rgb(255, 255, 255);
   padding: 5px 8px;
   text-align: center;
@@ -108,7 +108,7 @@ https://www.w3schools.com/howto/howto_js_topnav.asp */
 /* Add a black background color to the top navigation */
 .navbar {
   font-family: Arial;
-  background-color: #333;
+  background-color: rgb(31, 46, 78);
   overflow: hidden;
 }
 
