@@ -1,49 +1,38 @@
 /* GEOM 101 Assignment 2
 External CSS File for formatting
 Author: Ashley Ford
-Last Modified on: October 7 2021 */
+Last Modified on: October 18 2021 */
 
 /* Setting formatting for the basic elements below for heading 1, 2 and for paragraph */
 body {
     background-color: whitesmoke;
   }
   
-  h1 {
-    color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
   }
   
-  h2  {
-    color: black;
-    text-align: left;
-    font-family: Arial;
-    font-size: 20px;
-    padding: 10px;
+h2  {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
       
-  }
+}
 
-  p {
-    font-family: Arial;
-    text-align: center;
-    font-size: 18px;
-    padding: 10px;
-  }
-
-/* This class formats the text for the about section so that it's uniform */
-.abouttext
-{
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   font-size: 18px;
   padding: 10px;
 }
 
-/* This is the formatting class for image caption text */
-.captiontext {
-  font-family: Arial, Helvetica, sans-serif;
+/* This class formats the text for the about section so that it's uniform */
+.lefttext
+{
   text-align: left;
-  font-size: 18px;
-  padding: 10px;
 }
 
 /* This is the formatting class for the map on the about page */
@@ -57,7 +46,7 @@ body {
 
 /* This section formats the external link I provided to the sand dune information */
 /* Inspiration taken from: https://www.w3schools.com/html/html_links_colors.asp */
-.sanddunelink a:link, .sanddunelink a:visited {
+.externallink a:link, .externallink a:visited {
   background-color: rgb(31, 46, 78);
   color: rgb(255, 255, 255);
   padding: 5px 8px;
@@ -66,21 +55,7 @@ body {
   display: inline-block;
 }
 
-.sanddunelink a:hover {
-  background-color: rgb(67, 233, 255);
-}
-
-/* This section formats the external link I provided to the sand dune information */
-.tuliplink a:link, .tuliplink a:visited {
-  background-color: rgb(31, 46, 78);
-  color: rgb(255, 255, 255);
-  padding: 5px 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.tuliplink a:hover {
+.externallink a:hover {
   background-color: rgb(67, 233, 255);
 }
 
@@ -107,7 +82,7 @@ body {
 https://www.w3schools.com/howto/howto_js_topnav.asp */
 /* Add a black background color to the top navigation */
 .navbar {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(31, 46, 78);
   overflow: hidden;
 }
